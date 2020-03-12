@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         configureTabLayout();
     }
 
+
     private void configureTabLayout() {
         TabLayout tabLayout= (TabLayout) findViewById(R.id.tabLayout);
         tabLayout.addTab(tabLayout.newTab().setText("Tip Calculator"));
